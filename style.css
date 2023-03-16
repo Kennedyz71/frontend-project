@@ -1,0 +1,66 @@
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 100%;
+  min-width: 100%;
+  min-height: 100%;
+} */
+* {
+  cursor: pointer;
+}
+body {
+  background-image: url(../cloud.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+}
+#main {
+  width: 80vw;
+  font-family: "Arima Madurai", cursive;
+  background-color: rgba(33, 130, 221, 0.651);
+  opacity: 100%;
+  margin: auto;
+  border: 20px solid #ffffff;
+  border-radius: 40px;
+  text-align: center;
+  padding: 10px;
+  color: antiquewhite;
+}
+
+#results {
+  background-color: rgba(108, 182, 185, 0.63);
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 150px;
+  padding: 0px;
+}
+
+.result-card {
+  width: 70vw;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 210px;
+  padding: 1px;
+  /* margin: 0px; */
+  display: inline-block;
+}
+#city {
+  font-size: 5vw;
+  font-weight: 900;
+  text-decoration: underline;
+}
+#clock {
+  font-family: system-ui;
+
+  color: rgb(7, 5, 0);
+  text-align: center;
+  font-size: 60px;
+}
+#currentTime {
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: 900;
+}

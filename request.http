@@ -1,0 +1,16 @@
+###
+# curl -X GET  https://api.weather.gov/points/38.8894,-77.0352
+
+curl -X GET https://geocode.maps.co/search?q=80913
+
+###
+curl -X 'GET' \
+  'https://www.timeapi.io/api/TimeZone/coordinate?latitude=38.7569&longitude=-104.8061' \
+  -H 'accept: application/json'
+
+###
+
+curl -X 'GET' \
+  'https://www.timeapi.io/api/Time/current/zone?timeZone=America/Denver' \
+  -H 'accept: application/json'
+

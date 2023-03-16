@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <video autoplay muted loop id="myVideo">
+      <source src="BrownIllegalChafer-mobile.mp4" type="video/mp4" />
+    </video> -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.js"
+      integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+      crossorigin="anonymous"
+    ></script>
+    <title>WeatherorNot</title>
+  </head>
+  <body>
+    <div id="clock" onload="currentTime()"></div>
+    <div id="main">
+      <div id="header">
+        <h1>Weather snapShot</h1>
+      </div>
+      <div id="user-section">
+        <input
+          type="text"
+          name="search"
+          data-placeholder="City/State or zipcode"
+        />
+        <button id="submit">Search</button>
+      </div>
+      <div id="results"></div>
+    </div>
+  </body>
+</html>
