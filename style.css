@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 body {
-  background-image: url(../cloud.jpg);
+  background-image: url(./cloud.jpg);
   background-color: #b822cc;
   background-position: center center;
   background-repeat: no-repeat;
