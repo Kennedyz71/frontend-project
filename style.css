@@ -10,8 +10,8 @@
   cursor: pointer;
 }
 body {
-  background-image: url(./cloud.jpg);
-  background-color: #b822cc;
+  background-image: url(./clouds-moving.gif);
+  background-color: #0056bd;
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
